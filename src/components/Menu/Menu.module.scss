@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}

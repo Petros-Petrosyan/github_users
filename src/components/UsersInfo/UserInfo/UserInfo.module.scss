@@ -1,0 +1,33 @@
+.section {
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid rgba(32,33,36,0.28);
+  cursor: pointer;
+
+  .remove {
+    position: absolute;
+    right: 20px;
+    background-color: #f50057;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
+.section:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.img {
+  height: 60px;
+  margin-right: 10px;
+}
